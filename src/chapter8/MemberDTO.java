@@ -20,7 +20,7 @@ public class MemberDTO {
      *
      *  - VO(Value Object)는 값 동등성과 불변성에 초점을 둔다(개념상 구분).
      */
-    private String name;
+    public String name;
     private String phone;
     private String email;
 
