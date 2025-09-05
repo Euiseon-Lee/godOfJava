@@ -1,0 +1,13 @@
+package chapter10.inheritance;
+
+public class ParentArg {
+    public ParentArg(String name) {
+        System.out.println("ParentArg("+ name + ") Constructor");
+    }
+    public ParentArg(Inheritance obj) {
+        System.out.println("ParentArg(Inheritance obj) Constructor");
+    }
+    public void printName() {
+        System.out.println("printName() - ParentArg");
+    }
+}
